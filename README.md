@@ -58,10 +58,11 @@ turn instantly on there being no moves available (it might take the player by su
 
 How to compile and use the game
 -------------------------------
-
+This is project was released in 2012, some of its dependencies are hard to get (ie. sbt-plugin):
 1. Download sbt 
-2. sbt (to start the sbt console)
-3. run
-4. visit http://localhost:9000
+2. Use JDK 7 to compile the project. Pro-tip: use SDKMAN!
+3. Download [play](https://downloads.typesafe.com/play/2.1.0/play-2.1.0.zip), extract it, and add it to your `PATH`
+4. Run `play run`
+5. visit http://localhost:9000
 
 
